@@ -25,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.3/dist/iconify-icon.min.js"></script>
 
     <!-- Remove this and fill in your name & photo in the required areas -->
-    <script>
+    <!-- <script>
       fetch('https://randomuser.me/api/?inc=name,picture')
         .then((response) => response.json())
         .then(({ results }) => results[0])
@@ -37,7 +37,7 @@
           document.title = `${name.first} ${name.last} Personal Site`
           document.querySelector('#profilepic').src = picture.large
         })
-    </script>
+    </script> -->
 
     <link href="styles/theme.css" rel="stylesheet" />
     <link href="styles/styles.css" rel="stylesheet" />
@@ -50,7 +50,7 @@
     <nav class="navbar navbar-expand-lg bg-primary fixed-top">
       <div class="container-fluid p-2 px-lg-2 py-lg-0">
         <!-- Set Name Here -->
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#">Jason Huang</a>
         <button
           class="navbar-toggler bg-white"
           type="button"
@@ -99,13 +99,14 @@
           class="rounded-circle"
           draggable="false"
           id="profilepic"
+          src="https://avatars.githubusercontent.com/u/73149814?s=400&u=a58cf7c9b9863c8e2d0660b819dbe3617bda1d98&v=4"
         />
       </div>
       <div class="row mx-auto">
         <h4 class="h1 font-weight-bold mx-auto text-center">
           <!-- Set Name Here -->
           Hi <iconify-icon icon="twemoji:waving-hand"></iconify-icon> I'm
-          <span id="name"></span>!
+          <span id="name">Jason Huang</span>!
         </h4>
       </div>
       <div class="row mx-auto">
@@ -212,45 +213,40 @@
         </h5>
       </div>
       <div class="row w-100">
-        <h5>Inspiro for Esperanza</h5>
+        <h5>Car Ferry</h5>
       </div>
       <div class="row w-100 mb-4">
         <p class="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus
-          nisi in neque blandit auctor. Vestibulum pellentesque fringilla nulla
-          quis sagittis. Donec id erat sodales, fringilla est non, vestibulum
-          tellus. Suspendisse potenti. Fusce et dolor blandit, tincidunt eros
-          non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus
-          tincidunt purus. Suspendisse imperdiet massa nec sem dictum luctus.
-          Vestibulum at porta lectus, sed faucibus libero.
+          I have created a class project that simulates the parking queues for the Cape May-Lewes Ferry.
+          <ul style="margin-left: 20px;">
+            <li>Built and implemented the queue data structures used for the simulations</li>
+            <li>Designed using the principles of Object Orientated Progamming</li>
+          </ul>
         </p>
       </div>
       <div class="row w-100">
-        <h5>Work From Home Pinterest</h5>
+        <h5>English Dictionary</h5>
       </div>
       <div class="row w-100 mb-4">
         <p class="text-justify">
-          Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non
-          ex dapibus finibus. Nulla facilisi. Integer eu libero lorem.
-          Pellentesque eget pretium ligula. Donec finibus nibh sed leo dapibus
-          imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit
-          dolor, ac mollis risus. Vestibulum commodo turpis nulla, bibendum
-          varius urna dictum porta.
+          This was a personal project that I created using Python. I was able to create a project using the
+          built-in functions from Python. I was able to utilize JSON files to store the data and I used the
+          Python functions to read the JSON into a Python dictionary.
+          <ul style="margin-left: 20px;">
+            <li>Built the logic that is associated with the dictionary data structure</li>
+            <li>Designed the program to making suggestions in case a word might be miss spelled</li>
+          </ul>
         </p>
       </div>
       <div class="row w-100">
-        <h5>Query Dating Site</h5>
+        <h5>Ai Me Dating Website</h5>
       </div>
       <div class="row w-100">
         <p class="text-justify">
-          Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra
-          odio ut egestas. Nullam facilisis condimentum consequat. Integer arcu
-          nibh, ullamcorper non fringilla quis, tempus sit amet turpis. Proin ac
-          gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor
-          sit amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a
-          maximus vel, fringilla eu nisl. Pellentesque sed quam non urna dapibus
-          porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-          efficitur at.
+          This is a course project that allowed me to use the functions of visual studio to create an application
+          that allows people to create an account and login to see their dating profile on the website. I was
+          able to utilize a database that uses stored procedures to fetch and display data. I was also able to use
+          gridviews to display the data that was taken from the database.
         </p>
       </div>
       <div class="row mt-3 next">
@@ -281,7 +277,7 @@
           href="https://bulletin.temple.edu/search/?P=CIS%204296"
           target="_blank"
         >
-          <h5 class="m-0">Information Systems Analysis and Design</h5>
+          <h5 class="m-0">Database Management Systems</h5>
         </a>
         <a
           class="col-11 col-lg-5 text-center course class-card p-4 rounded text-decoration-none d-flex justify-content-center align-items-center"
@@ -289,7 +285,7 @@
           href="https://bulletin.temple.edu/search/?P=CIS%203342"
           target="_blank"
         >
-          <h5 class="m-0">Server-Side Web Application Development</h5>
+          <h5 class="m-0">Data Structures and Algorithms</h5>
         </a>
         <a
           class="col-11 col-lg-5 text-center course class-card p-4 rounded text-decoration-none d-flex justify-content-center align-items-center"
@@ -297,7 +293,7 @@
           href="https://bulletin.temple.edu/search/?P=CIS%203329"
           target="_blank"
         >
-          <h5 class="m-0">Network Architectures</h5>
+          <h5 class="m-0">Network Technology</h5>
         </a>
         <a
           class="col-11 col-lg-5 text-center course class-card p-4 rounded text-decoration-none d-flex justify-content-center align-items-center"
@@ -305,7 +301,7 @@
           href="https://bulletin.temple.edu/search/?P=CIS%203344"
           target="_blank"
         >
-          <h5 class="m-0">Client-Side Scripting</h5>
+          <h5 class="m-0">Computer Organization</h5>
         </a>
         <a
           class="col-11 col-lg-5 text-center course class-card p-4 rounded text-decoration-none d-flex justify-content-center align-items-center"
@@ -321,7 +317,7 @@
           href="https://bulletin.temple.edu/search/?P=CIS%202109"
           target="_blank"
         >
-          <h5 class="m-0">Database Management Systems</h5>
+          <h5 class="m-0">Object-Orientated Programming</h5>
         </a>
         <div class="row mt-5 next justify-content-center align-items-center">
           <a href="#contact" class="text-center"
@@ -333,6 +329,11 @@
         </div>
       </div>
     </div>
+
+    <div>
+      
+    </div>
+
     <div
       class="container section min-vh-100 d-flex justify-content-center flex-column align-items-center"
       id="contact"
@@ -348,7 +349,7 @@
         </h5>
       </div>
       <div class="row my-4 contact-wrapper gap-3">
-        <a href="mailto:johndoe@gmail.com" class="col text-black">
+        <a href="mailto:tuj56759@temple.edu" class="col text-black">
           <iconify-icon
             icon="logos:google-gmail"
             width="60"
@@ -358,7 +359,7 @@
             title="Email"
           ></iconify-icon>
         </a>
-        <a href="https://www.linkedin.com/in/johndoe/" class="col"
+        <a href="https://www.linkedin.com/in/jason-huang-65523819a/" class="col"
           ><iconify-icon
             icon="skill-icons:linkedin"
             width="60"
@@ -368,7 +369,7 @@
             title="LinkedIn"
           ></iconify-icon>
         </a>
-        <a href="https://github.com/johndoe" class="col"
+        <a href="https://github.com/AlphaXII" class="col"
           ><iconify-icon
             icon="skill-icons:github-dark"
             width="60"
